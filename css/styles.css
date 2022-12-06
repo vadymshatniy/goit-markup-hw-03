@@ -18,6 +18,12 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.container {
+    width: 1152px;
+    margin: 0 auto;
+    padding: 0 12px;
+    border: 2px solid #4D5AE5;
+}
 .link {
     text-decoration: none;
 }
@@ -46,6 +52,8 @@ body {
 }
 .site-nav {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 .site-nav .link {
     color: var(--primary-color);
@@ -65,6 +73,8 @@ body {
 }
 .contact-nav {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 .contact-nav .link {
     color: var(--primary-text-color);
@@ -80,11 +90,14 @@ body {
 .hero {
     color: var(--secondary-color);
     background-color: var(--primary-color);
+    text-align: center;
 }
 .hero-title {
     font-weight: 500;
     font-size: 56px;
     line-height: 1.07;
+    width: 492px;
+    margin: 192px auto 48px;
 }
 .hero-button {
     color: var(--secondary-color);
@@ -95,6 +108,11 @@ body {
     line-height: 1.19;
     letter-spacing: 0.04em;
     cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    padding: 16px 32px;
+    margin-bottom: 192px;
+    
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -110,30 +128,43 @@ body {
 /* sections (excluding "Our team") */
 .section {
     background-color: var(--secondary-color);
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
 .section-title {
     color: var(--primary-color);
     font-weight: 500;
     font-size: 36px;
     line-height: 1.11;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 72px;
     
 }
 .section-list {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 .section-list .item-title {
     color: var(--primary-color);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    padding: 0;
+    margin: 0;
 }
 .section-list .item-text {
     color: var(--primary-color);
+    padding: 0;
+    margin: 0;
 }
 
 /* our team */
 .ourteam {
     background-color: var(--footer-studio-color);
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 /* footer */
@@ -150,6 +181,9 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.03em;
     text-decoration: none;
+    display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 16px;
 }
 .logo-footer:focus,
 .logo-footer:hover {
@@ -161,6 +195,10 @@ body {
 .logo-footer-studio:hover,
 .logo-footer-studio:focus {
     color: var(--accent-color);
+}
+.footer-text {
+    width: 264px;
+    margin-bottom: 100px;
 }
 
 /* portfolio buttons-filters */
