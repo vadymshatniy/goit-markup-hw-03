@@ -328,8 +328,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 24px;
     margin-bottom: 48px;
     border: ;
-    outline: 0.5px solid var(--footer-studio-color);
-    outline-offset: -1px;
 }
 .item-portfolio:nth-child(3n) {
     margin-right: 0;
@@ -341,4 +339,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 16px;
+    border-left: 0.5px solid var(--footer-studio-color);;
+    border-bottom: 0.5px solid var(--footer-studio-color);;
+    border-right: 0.5px solid var(--footer-studio-color);;
 }
