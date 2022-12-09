@@ -18,17 +18,20 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 .container {
-    width: 1152px;
+    width: 1158px;
     margin: 0 auto;
-    padding: 0 12px;
+    padding: 0 15px;
 }
 
 /* header */
 .header-nav {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 }
 .link {
     text-decoration: none;
@@ -188,6 +191,7 @@ body {
     margin: 0;
 }
 .item-noname {
+    width: 264px;
     margin-right: 24px;
 }
 .item-noname:nth-child(4n) {
@@ -202,6 +206,9 @@ body {
 .item-what:nth-child(3n) {
     margin-right: 0;
 }
+.img-block {
+    display: block;
+}
 
 /* our team */
 .ourteam {
@@ -209,23 +216,26 @@ body {
     padding-top: 120px;
     padding-bottom: 120px;
 }
-
 .item-team {
     margin-right: 24px;
     text-align: center;
+    background-color: var(--secondary-color);
 }
 .item-team:nth-child(4n) {
     margin-right: 0;
 }
+.ourteam-person {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
 .item-team-title {
-    margin-bottom: 32px;
+    margin-bottom: 8px;
     color: var(--primary-color);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
 }
 .item-team-text {
-    margin-bottom: 32px;
     color: var(--primary-color);
 }
 
@@ -261,6 +271,8 @@ body {
 }
 .footer-text {
     width: 264px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 /* portfolio */
@@ -268,11 +280,18 @@ body {
     padding-top: 96px;
     padding-bottom: 120px;
 }
+.section-list-port {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 72px;
+}
 .portfolio-button {
     display: block;
-    margin-bottom: 72px;
-    padding: 8px 16px;
+    padding: 12px 24px;
     border: none;
+    border-radius: 4px;
     background-color: var(--footer-studio-color);
     color: var(--accent-color);
     font-family: inherit;
@@ -303,20 +322,23 @@ body {
     margin: 0;
 }
 .portfolio-list .item-title {
-    margin-top: 32px;
     margin-bottom: 8px;
-}
-.portfolio-list .item-text {
-    margin-bottom: 32px;
 }
 .item-portfolio {
     margin-right: 24px;
     margin-bottom: 48px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    border: ;
+    outline: 0.5px solid var(--footer-studio-color);
+    outline-offset: -1px;
 }
 .item-portfolio:nth-child(3n) {
     margin-right: 0;
 }
 .item-portfolio:nth-last-child(-n+3) {
     margin-bottom: 0;
+}
+.item-about {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
 }
